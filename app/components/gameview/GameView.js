@@ -79,7 +79,7 @@ module.exports = React.createClass({
           </div>
           <div>
             <div className='row'>
-              <div className='col-md-3'>
+              <div className='col-md-9'>
                 <StoryBox fwibs={this.state.fwibs} />
               </div>
               <div className='col-md-3'>
@@ -87,9 +87,8 @@ module.exports = React.createClass({
               </div>
             </div>
           </div>
+          <StoryInput onFwibSubmit={this.handleFwibSubmit} user={this.state.user} />
         </div>
-
-        <StoryInput onFwibSubmit={this.handleFwibSubmit} user={this.state.user} />
 			</div>
 		);
 	}
