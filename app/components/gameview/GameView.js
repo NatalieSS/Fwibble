@@ -94,17 +94,24 @@ module.exports = React.createClass({
     }
 		return (
 			<div>
+      <div className="row">
 				<StoryTitle />
+        <div className='col-md-6'>
         <StoryBox
           fwibs={this.state.fwibs}
         />
+        </div>
+        <div className='col-md-6'>
+          <UsersInRoom 
+            users={this.state.users}
+          />
+        </div>
+        </div>
+
         <StoryInput
           onFwibSubmit={this.handleFwibSubmit}
           user={this.state.user}
         />
-				<UsersInRoom 
-				  users={this.state.users}
-				/>
 			</div>
 		);
 	}

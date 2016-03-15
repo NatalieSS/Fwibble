@@ -34,7 +34,7 @@ var App = React.createClass({
   render: function() {
     return (
       <div>
-        <div className="container-fluid">
+        <div className='col-md-12'>
           <div className='navbar'>
             <h1>Fwibble</h1>
             <ul className='nav-links'>
