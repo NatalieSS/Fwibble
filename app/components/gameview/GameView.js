@@ -72,7 +72,7 @@ module.exports = React.createClass({
 		return (
 			<div>
         <div className='container'>
-          <div className='row'>
+          <div className='row well'>
             <div className='col-md-12'>
       				<StoryTitle />
             </div>
