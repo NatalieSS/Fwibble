@@ -76,6 +76,8 @@ module.exports = React.createClass({
             <div className='col-md-12'>
       				<StoryTitle />
             </div>
+          </div>
+          <div>
             <div className='row'>
               <div className='col-md-6'>
                 <StoryBox fwibs={this.state.fwibs} />
