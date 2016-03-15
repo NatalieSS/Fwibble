@@ -34,7 +34,6 @@ var App = React.createClass({
   render: function() {
     return (
       <div>
-        <div className='col-md-12'>
           <div className='navbar'>
             <h1>Fwibble</h1>
             <ul className='nav-links'>
@@ -43,13 +42,10 @@ var App = React.createClass({
               <li><Link to='/gameview' className='fa fa-pencil'>Game</Link></li>
             </ul>
           </div>
-        </div>
-        <div className="container">
           {this.props.children && React.cloneElement(this.props.children, {
             setUser: this.setUser,
             user: this.state.username
           })}
-        </div>
       </div>
     )
   }
