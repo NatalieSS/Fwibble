@@ -8,7 +8,7 @@ module.exports = React.createClass({
   <nav className="navbar navbar-default">
     <div className="container-fluid">
       <div className="navbar-header">
-        <a className="navbar-brand" href="#">Fwibble</a>
+        <a className="navbar-brand" href="/">Fwibble</a>
       </div>
         <ul className="nav navbar-nav navbar-right">
           <li><button type='button' className='btn btn-md btn-secondary'><a href="/signin">Sign In</a></button></li>

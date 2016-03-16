@@ -25,7 +25,7 @@ module.exports = React.createClass({
 
   render: function() {
   return (
-    <div className='fwibs'>
+   <div className='fwibs'>
     <h2> Story: </h2>
     {
       this.props.fwibs.map((fwib, i) => {

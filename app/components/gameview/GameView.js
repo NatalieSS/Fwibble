@@ -80,9 +80,11 @@ module.exports = React.createClass({
           <div>
             <div className="row">
               <div className="col-md-9">
+              <div className="storyBoxStyling">
                 <StoryBox fwibs={this.state.fwibs} />
               </div>
-              <div className="col-md-3">
+              </div>
+              <div className="col-md-2">
                 <UsersInRoom users={this.state.users} />
               </div>
             </div>
