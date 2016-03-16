@@ -71,18 +71,18 @@ module.exports = React.createClass({
 	render: function() {
 		return (
 			<div>
-        <div className='container'>
-          <div className='row well'>
-            <div className='col-md-12'>
+        <div className="container">
+          <div className="row well">
+            <div className="col-md-6">
       				<StoryTitle />
             </div>
           </div>
           <div>
-            <div className='row'>
-              <div className='col-md-9'>
+            <div className="row">
+              <div className="col-md-9">
                 <StoryBox fwibs={this.state.fwibs} />
               </div>
-              <div className='col-md-3'>
+              <div className="col-md-3">
                 <UsersInRoom users={this.state.users} />
               </div>
             </div>
