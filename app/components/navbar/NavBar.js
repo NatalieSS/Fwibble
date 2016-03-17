@@ -5,17 +5,17 @@ module.exports = React.createClass({
 
   render: function() {
     return (
-  <nav className="navbar navbar-default">
+  <div className="navbar navbar-default navbar-static-top">
     <div className="container-fluid">
       <div className="navbar-header">
         <a className="navbar-brand" href="/">Fwibble</a>
       </div>
         <ul className="nav navbar-nav navbar-right">
-          <li><button type='button' className='btn btn-md btn-secondary'><a href="/signin">Sign In</a></button></li>
-          <li><button type='button' className='btn btn-md btn-secondary'><a href="/gameview">Game</a></button></li>
+          <li><a className="menuOptions" href="/signin">Sign In</a></li>
+          <li><a className="menuOptions" href="/gameview">Game</a></li>
         </ul>
       </div>
-    </nav>
+    </div>
 )
   }
 });

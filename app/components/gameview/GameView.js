@@ -72,24 +72,24 @@ module.exports = React.createClass({
 		return (
 			<div>
         <div className="container">
-          <div className="row well">
-            <div className="col-md-6">
+          <div className="row">
+            <div className="col-md-9">
       				<StoryTitle />
             </div>
           </div>
           <div>
             <div className="row">
               <div className="col-md-9">
-              <div className="storyBoxStyling">
                 <StoryBox fwibs={this.state.fwibs} />
-              </div>
               </div>
               <div className="col-md-2">
                 <UsersInRoom users={this.state.users} />
               </div>
             </div>
           </div>
-          <StoryInput onFwibSubmit={this.handleFwibSubmit} user={this.state.user} />
+          <div cassName="col-md-9">
+            <StoryInput onFwibSubmit={this.handleFwibSubmit} user={this.state.user} />
+          </div>
         </div>
 			</div>
 		);
