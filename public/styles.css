@@ -63,13 +63,28 @@
 
 .jumbotron h1,
 .jumbotron .h1 {
-  color: #ED5160;
+  color: #009C29;
+}
+
+.btn-success {
+  background-color: rgb(154, 204, 0);
+  border-color: rgb(142, 188, 0);
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: rgb(130, 170, 6);
+  border-color: rgb(125, 163, 9);
 }
 
 .btn-outline {
     background-color: transparent;
     color: inherit;
     transition: all .5s;
+}
+
+.input-group .form-control {
+  width: 50%;
 }
 
 /*.titleBackground {
