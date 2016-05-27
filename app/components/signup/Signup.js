@@ -64,22 +64,22 @@ module.exports = React.createClass({
       <div className="container">
         <div className="text-center">
           <div className="row">
-            <div className="signupBox">
-              <div className="col-md-6 col-md-offset-3">
-                <div className="jumbotron">
+            <div className="col-md-6 col-md-offset-3">
+              <div className="jumbotron-signup">
+                <div className="signupBox">
                   <div><img src={logo} width='200px' alt="Fwibble" className="center-block"/></div>
                     <div className="signUpForm">
             	        <form>
-            		        <input type="text" className="form-control" placeholder="username" value={this.state.username} onChange={this.handleUsername} />
+            		        <input type="text" className="form-control" placeholder="Choose a username" value={this.state.username} onChange={this.handleUsername} />
             		        <br/>
-            		        <input type="password" className="form-control" placeholder="password" value={this.state.password} onChange={this.handlePassword} />
+            		        <input type="password" className="form-control" placeholder="Choose a password" value={this.state.password} onChange={this.handlePassword} />
             		        <br/>
             		        <input type="submit" className="btn btn-success" name="signUpSubmit" onClick={this.handleClick} /> 
                         {this.state.loginError}
             		      </form>
                       <div className="row">
                       <br/>
-                        <a href="/signin">Already have an account? Sign in!</a>
+                        <a href="/signin">Already have an account? Sign in here!</a>
                       </div>
           		      </div>
                 </div>
