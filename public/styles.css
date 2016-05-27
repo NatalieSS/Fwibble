@@ -93,11 +93,11 @@ body {
 }
 
 .jumbotron-signup {
-  background-color: rgba(249, 9, 110, .35);
+  background-color: rgba(249, 9, 110, .25);
   // border-style: solid;
   // border-radius: 1px;
-  border-color: rgb(241, 0, 101);
-  border: 1px solid rgb(241, 0, 101);
+  border-color: rgb(244, 94, 157);
+  border: 1px solid rgb(244, 94, 157);
   border-radius: 4px;
   margin-top: 20px;
 }
